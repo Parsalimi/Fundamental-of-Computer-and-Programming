@@ -28,8 +28,8 @@ else:
     y = 3*x+6
 print(y)
 
-#برنامه ای بنویسید که عبارت زیر را نمایش دهد
-
+#######################################
+#write a code that prints out a left point pyramid
 #1
 #1 2
 #1 2 3
@@ -40,5 +40,7 @@ for i in range (1,a+1):
         print (j,"\t",end='')
         #salam be srcs
 #edited by emaan.
+
+
 ################## Assignment ##################
 

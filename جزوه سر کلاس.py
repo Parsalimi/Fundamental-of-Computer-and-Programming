@@ -27,14 +27,4 @@ print(y)
 #1 2
 #1 2 3
 #1 2 3 4
-
-
-
-
-
-
-
-
-
-
-
+#edited by emaan.

@@ -27,4 +27,8 @@ print(y)
 #1 2
 #1 2 3
 #1 2 3 4
-#edited by emaan.
+a=int(input("input the number: "))
+for i in range (a):
+    for j in range (i):
+        print (j,"\t",end='')
+edited by emaan.

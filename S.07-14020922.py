@@ -28,4 +28,19 @@ else:
     y = 3*x+6
 print(y)
 
+#######################################
+#write a code that prints out a left point pyramid
+#1
+#1 2
+#1 2 3
+#1 2 3 4
+a=int(input("input the number: "))
+for i in range (1,a+1):
+    for j in range (1,i+1):
+        print (j,"\t",end='')
+        #salam be srcs
+#edited by emaan.
+
+
 ################## Assignment ##################
+

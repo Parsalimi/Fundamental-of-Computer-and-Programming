@@ -31,5 +31,5 @@ a=int(input("input the number: "))
 for i in range (a):
     for j in range (i):
         print (j,"\t",end='')
-        #salam be srcs
+    print ()
 edited by emaan.

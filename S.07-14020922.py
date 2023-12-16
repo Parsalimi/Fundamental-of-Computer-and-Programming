@@ -29,10 +29,3 @@ else:
 print(y)
 
 ################## Assignment ##################
-# سلام خوشگلا
-# slm
-# damet garm doorood bar to
-# Slm test shomare 2
-# mashti mashala
-# Are didam Hossein
-# eyval

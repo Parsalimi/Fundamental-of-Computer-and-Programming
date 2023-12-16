@@ -28,4 +28,5 @@ else:
     y = 3*x+6
 print(y)
 #edit by AIconstructor
+#inja comment konid
 ################## Assignment ##################

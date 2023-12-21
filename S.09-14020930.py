@@ -1,6 +1,6 @@
 # Library os dar emtehan nemyad
 #import os
-# print(os.getcwd()) # mahl zakhire code feeli
+# print(os.getcwd()) # cwd: current working directory - mahl zakhire code feeli
 #os.mkdir() # make directory - tozih mofasari dare ke sare class be hamin had ektefa shod
 #os.walk # Ostad taghriban chizi dar bare walk nagoft, vali be tor pishrafte tar address code ro dakhel file mide
 # os.listdir() # list directory - kol file haye python save roye dastgah

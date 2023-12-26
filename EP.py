@@ -269,3 +269,26 @@
 # print(sum)
 
 ################################################################
+# Zarayeb moadele daraje 2 ra daryaft namayad va rishe haye haghighi aan ra namayesh dahad
+# import math
+# a = float(input("a?: "))
+# b = float(input("b?: "))
+# c = float(input("c?: "))
+# print(f"rishe aval: {(-b + math.sqrt(b ** 2 - 4 * a * c)) / 2 * a }, rishe dovom: {(-b - math.sqrt(b ** 2 - 4 * a * c)) / 2 * a}")
+
+################################################################
+# barnamei benevisid ke sanie begirad va be saal mah roz saat daghighe sanie neshan dahad - 12 mah 30 roze dar nazar gerefte shavad
+# sec = int(input("lotfan sec vared konid: "))
+# year = sec //(60*60*24*12*30)
+# sec = sec - year*(60*60*24*12*30)
+# month = sec //(60*60*24*30)
+# sec = sec - month*(60*60*24*30)
+# day = sec //(60*60*24)
+# sec = sec - day*(60*60*24)
+# hour = sec //(60*60)
+# sec = sec - hour*(60*60)
+# min = sec //(60)
+# sec = sec - min*(60)
+# print(f"Year:{year}, Month:{month}, Day:{day}, {hour}:{min}:{sec}")
+
+################################################################

@@ -75,12 +75,12 @@
 #    print(i)
 
 #----------------001----------------#
-#a = int(input("give me the num: "))
-#x = 0
-#for i in range (1,a + 1, 2):
+# a = int(input("give me the num: "))
+# x = 0
+# for i in range (1,a + 1, 2):
 #    x = i + x
 #    print(i,"\t","Sum: ",x)
-#print("Total Sum: ", x)
+# print("Total Sum: ", x)
 
 #----------------014----------------#
 #n = int(input("Tedad daneshjoyan ra vared konid: "))
@@ -129,8 +129,9 @@
 #     print("1/",j," ", end="")
 # print(sumE+sumO)
 
-n = int(input("n ra vared konid: "))
-f = 1
-for i in range(n,1,-1):
-   f *= i
-print(f)
+# Factoriel
+# n = int(input("n ra vared konid: "))
+# f = 1
+# for i in range(n,1,-1):
+#    f *= i
+# print(f)

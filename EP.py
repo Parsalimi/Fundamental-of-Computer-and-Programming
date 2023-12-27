@@ -277,7 +277,7 @@
 # print(f"rishe aval: {(-b + math.sqrt(b ** 2 - 4 * a * c)) / 2 * a }, rishe dovom: {(-b - math.sqrt(b ** 2 - 4 * a * c)) / 2 * a}")
 
 ################################################################
-# barnamei benevisid ke sanie begirad va be saal mah roz saat daghighe sanie neshan dahad - 12 mah 30 roze dar nazar gerefte shavad
+#barnamei benevisid ke sanie begirad va be saal mah roz saat daghighe sanie neshan dahad - 12 mah 30 roze dar nazar gerefte shavad
 # sec = int(input("lotfan sec vared konid: "))
 # year = sec //(60*60*24*12*30)
 # sec = sec - year*(60*60*24*12*30)

@@ -128,6 +128,6 @@ while len(data3)<15:
 
 #region ending
         
-print("Bache ha dast bezanin zase kasi ke tamom kard, bebinin cheghadr bahooshe va nist hichjore ablah")
+print("Bache ha dast bezanin zase kasi ke tamom kard, bebinin cheghadr bahooshe va nist hichjore khengak")
 
 #endregion            

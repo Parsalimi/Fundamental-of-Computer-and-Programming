@@ -105,7 +105,7 @@ while len(data3)<15:
                     y = (input())
                     system("cls")
                     wrong_answers += 1
-                    print("Wrong(Bebakhshina)")
+                    print("Wrong")
                     print("____________________")
                     print("correct_answers : ", correct_answers)
                     print("wrong answers :", wrong_answers)
@@ -129,7 +129,6 @@ while len(data3)<15:
 
 #region ending
             
-print("Bache ha dast bezanin zase kasi ke tamom kard, bebinin cheghadr bahooshe va nist hichjore khengak")
-print("taze ye esm dige ham dare behesh migan nokhbe ya ba maghz")
+print("thanks for playing")
 
 #endregion            

@@ -69,7 +69,7 @@ tan90 = "tan(pi/2)"
 data1 = [sin0, sin30, sin45, sin60, sin90, cos0, cos30 , cos45, cos60, cos90, tan0, tan30, tan45, tan60, tan90]
 data2 = ["0", "1/2", "radical2/2", "radical3/2", "1",
         "1", "radical3/2", "radical2/2", "1/2", "0",
-        "0", "radical3/3", "1", "radical3", "undefined",]
+        "0", "radical3/3", "1", "radical3", "undefined"]
 data3 = []
 
 #endregion
@@ -91,58 +91,30 @@ system("cls")
 
 #region game
 while len(data3)<15:
-    x = (random.choice(data1))
-    if x not in data3:
-        data3.append(x)
+        x = (random.choice(data1))
+        index_of_x = data1.index(x)
+        if x not in data3:
+                data3.append(x)
 
         flag = True
-        lent = 0
         while flag:
 
-            print("____________________")
-            print(x, ": ", end="")
-            y = (input())
-            system("cls")
-            wrong_answers += 1
-            print("Wrong(Bebakhshina)")
-            print("____________________")
-            print("correct_answers : ", correct_answers)
-            print("wrong answers :", wrong_answers)
+                print("____________________")
+                print(x, ": ", end="")
+                y = (input())
+                system("cls")
+                wrong_answers += 1
+                print("Wrong(Bebakhshina)")
+                print("____________________")
+                print("correct_answers : ", correct_answers)
+                print("wrong answers :", wrong_answers)
 
-
-            if data1[0+lent] and y==data2[0+lent]:
-                    flag = False
-            if data1[1+lent] and y==data2[1+lent]:
-                    flag = False
-            if data1[2+lent] and y==data2[2+lent]:
-                    flag = False
-            if data1[3+lent] and y==data2[3+lent]:
-                    flag = False
-            if data1[4+lent] and y==data2[4+lent]:
-                    flag = False 
-            if data1[5+lent] and y==data2[5+lent]:
-                    flag = False
-            if data1[6+lent] and y==data2[6+lent]:
-                    flag = False
-            if data1[7+lent] and y==data2[7+lent]:
-                    flag = False
-            if data1[8+lent] and y==data2[8+lent]:
-                    flag = False
-            if data1[9+lent] and y==data2[9+lent]:
-                    flag = False
-            if data1[10+lent] and y==data2[10+lent]:
-                    flag = False 
-            if data1[11+lent] and y==data2[11+lent]:
-                    flag = False 
-            if data1[12+lent] and y==data2[12+lent]:
-                    flag = False 
-            if data1[13+lent] and y==data2[13+lent]:
-                    flag = False 
-            if data1[14+lent] and y==data2[14+lent]:
-                    flag = False
-            
-                   
                 
+                # Version 2
+                for k in range(14+1):
+                        if y == data2[index_of_x]:
+                                flag = False
+ 
                    
         system("cls")
 

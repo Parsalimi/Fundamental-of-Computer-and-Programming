@@ -95,39 +95,41 @@ while len(data3)<15:
         index_of_x = data1.index(x)
         if x not in data3:
                 data3.append(x)
+        
 
-        flag = True
-        while flag:
+                flag = True
+                while flag:
 
-                print("____________________")
-                print(x, ": ", end="")
-                y = (input())
+                    print("____________________")
+                    print(x, ": ", end="")
+                    y = (input())
+                    system("cls")
+                    wrong_answers += 1
+                    print("Wrong(Bebakhshina)")
+                    print("____________________")
+                    print("correct_answers : ", correct_answers)
+                    print("wrong answers :", wrong_answers)
+
+                    
+                    
+                    for k in range(15+1):
+                            if y == data2[index_of_x]:
+                                    flag = False
+    
+                    
                 system("cls")
-                wrong_answers += 1
-                print("Wrong(Bebakhshina)")
-                print("____________________")
+
+                correct_answers += 1
+                wrong_answers -= 1
+                print("Right(Doorood bar to)")
                 print("correct_answers : ", correct_answers)
                 print("wrong answers :", wrong_answers)
-
-                
-                # Version 2
-                for k in range(14+1):
-                        if y == data2[index_of_x]:
-                                flag = False
- 
-                   
-        system("cls")
-
-        correct_answers += 1
-        wrong_answers -= 1
-        print("Right(Doorood bar to)")
-        print("correct_answers : ", correct_answers)
-        print("wrong answers :", wrong_answers)
 
 #endregion
 
 #region ending
-        
+            
 print("Bache ha dast bezanin zase kasi ke tamom kard, bebinin cheghadr bahooshe va nist hichjore khengak")
+print("taze ye esm dige ham dare behesh migan nokhbe ya ba maghz")
 
 #endregion            

@@ -140,7 +140,7 @@
 #     oddSum += 1/i
 # # Sum Even Numbers
 # for i in range(-2,-n-1,-2):
-#     evenSum = 1/i
+#     evenSum += 1/i
 # print(oddSum + evenSum)
 ################################################################
 # Barnamei benevisid ke hasel ebarat ro be ro ra mohasebe konad

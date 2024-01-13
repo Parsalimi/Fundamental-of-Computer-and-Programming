@@ -18,15 +18,12 @@
 #
 # print(f)
 ################################################################
-# 1 + 1/2 + 1/4 + 1/8 + ... + 1/2n
+#1 + 1/2 + 1/4 + 1/8 + ... + 1/2n
 # n = int(input("please enter your n: "))
 # sum = 1
-# if n == 1:
-#     print(f"answer: {sum}")
-# elif n > 1:
-#     for i in range(1, n+1):
-#         sum += 1/(2*i)
-#     print(f"answer: {sum}")
+# for i in range(1, n+1):
+#     sum += 1/(2*i)
+# print(f"answer: {sum}")
 ################################################################
 # shekl zir ra chap konad
 # *
@@ -163,11 +160,10 @@
 # 1 + x^1/1! + x^2/2! + ... + x^n/n!
 # n = int(input("n?: "))
 # x = int(input("x?: "))
-# sum = 0
+# sum = 1
 # f = 1
-# for i in range(n):
-#     for j in range(1, i+1):
-#         f *= j
+# for i in range(1, n+1):
+#     f *= i
 #     sum += (x**i)/f
 # print(sum)
 
@@ -291,4 +287,26 @@
 # sec = sec - min*(60)
 # print(f"Year:{year}, Month:{month}, Day:{day}, {hour}:{min}:{sec}")
 
+################################################################
+# Tamrin Algorithmi benevisid ke ebarat ro be ro ra mohasebe konad
+# x = √3 + √(3 + √3) + √(3 + √(3 + √3)) + ...
+# from math import sqrt
+# n = int(input("Please enter the n: "))
+# sum = 0
+# pervious = 0
+# for i in range(n):
+#     sum += sqrt(3 + pervious)
+#     pervious = sqrt(3 + pervious)
+# print(sum)
+
+# # Baraye Print Namadin
+# if n == 1:
+#     print("√3")
+# else:
+#     sumPr = ""
+#     perviousPr = "√3"
+#     for i in range(n-1):
+#         sumPr += f" √(3 + {perviousPr}) +"
+#         perviousPr = f"√(3 + {perviousPr})"
+#     print(f"√3 + {sumPr[:len(sumPr) - 1]}")
 ################################################################

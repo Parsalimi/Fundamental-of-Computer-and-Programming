@@ -33,8 +33,7 @@
 
 # n = int(input("please enter your n: "))
 # for i in range(1, n+1):
-#     print("*"*i,end='')
-#     print()
+#     print("*"*i)
 ################################################################
 # adad chand raghami ast?
 # import math

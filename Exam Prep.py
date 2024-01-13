@@ -310,3 +310,27 @@
 #         perviousPr = f"√(3 + {perviousPr})"
 #     print(f"√3 + {sumPr[:len(sumPr) - 1]}")
 ################################################################
+# adad zoj va fard list ra namayesh dahad
+# a = [1,2,3,4,5,6,7,8,9,11]
+
+# even = []
+# odd = []
+# for i in a:
+#     if i % 2 == 0:
+#         even.append(i)
+#     else:
+#         odd.append(i)
+# print(f"Even Numbers: {even}")
+# print(f"Odd Numbers: {odd}")
+################################################################
+# adad aval ra namayesh bede
+
+# def isPrime(n):
+#     for i in range(2, n):
+#         if n % i == 0:
+#             return False
+#     return True
+
+# for i in range(11):
+#     n = int(input())
+#     print(f"{isPrime(n)}")

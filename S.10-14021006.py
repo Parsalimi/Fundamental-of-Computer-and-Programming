@@ -20,6 +20,16 @@
 ################################
 # adad aval ra namayesh bede
 
+# def isPrime(n):
+#     for i in range(2, n):
+#         if n % i == 0:
+#             return False
+#     return True
+
+# for i in range(11):
+#     n = int(input())
+#     print(f"{isPrime(n)}")
+
 
 ################################
 # def func1():
@@ -58,14 +68,12 @@
 ################################
 # barnamei benevisid ke meghdar ebarat zir ra dar khoroji namayehs dahad ba estefade az function
 # P(n,r) = n!/(n-r)!
-# in code eshtebah ast
 # def factoriel(x):
 #     f = 1
-#     for i in (1, x+1):
+#     for i in range(1, x+1):
 #         f *= i
 #     return f
-#
-#
+
 # n = int(input("n?: "))
 # r = int(input("r?: "))
 # print(factoriel(n) / factoriel(n-r))

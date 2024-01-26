@@ -1,7 +1,7 @@
 ################## Lecture ##################
 
 ################## Assignment ##################
-# print("Tamrin #1")
+# print("tamrin #1")
 # a = int(input("Adad aval ro vared konid: "))
 # b = int(input("Adad dovom ro vared konid: "))
 # print("Jam 2 adad mishavad: {}".format(a+b))
